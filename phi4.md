@@ -9,25 +9,29 @@ WIP.
 ## LLM Pinout
 
 ```
- A1|    D+   SBU1+  |B12 (13)
- A2|    D-   SBU1-  |B11 (14)
- A3|   CC1   GND    |B10 (15)
- A4|  VBUS          |B9  (16) # 16th Pin not specified
- A5| SSTX+   SSTX2+ |B8  (17)
- A6| SSTX-   SSTX2- |B7  (18)
- A7|   CC2   SSRX2+ |B6  (19)
- A8| SSRX+   SSRX2- |B5  (20)
- A9|  VBUS   VBUS   |B4  (21)
-A10| SSRX-   GND    |B3  (22)
-A11|   GND   GND    |B2  (23)
-A12|   GND   SBU2+  |B1  (24)
-             SBU2-  |B?? (25) # Hallucinated 25th Pin
+ A1|     D+ # SBU1+  |B12 (13)
+ A2|     D- # SBU1-  |B11 (14)
+ A3|    CC1 # GND    |B10 (15)
+ A4|   VBUS #        |B9  (16)   # 16th Pin not specified
+ A5|  SSTX+ # SSTX2+ |B8  (17)
+ A6|  SSTX- # SSTX2- |B7  (18)
+ A7|    CC2 # SSRX2+ |B6  (19)
+ A8|  SSRX+ # SSRX2- |B5  (20)
+ A9|   VBUS # VBUS   |B4  (21)
+A10|  SSRX- # GND    |B3  (22)
+A11|    GND # GND    |B2  (23)
+A12|    GND # SBU2+  |B1  (24)
+            # SBU2-  |B?? (25)   # Hallucinated 25th Pin
 ```
+
+At first i thought that the lack of a 16th pin and the inclusion of a 25th pin may just mean the LLM skipped one, but since it's the 16th and not 13th missing, this can't be true.
+
+Pretty much none of this is right except the VBUS, surprisingly! 
 
 ## Raw LLM Output:
 
+```
 >>> Provide the pinout of a female USB Type-C connector
-
 A female USB Type-C connector has 24 pins, arranged in two rows with 12 pins each. Here 
 is a general outline of the pinout:
 
@@ -73,5 +77,4 @@ This configuration allows USB Type-C connectors to support multiple roles (host,
 alternate modes like DisplayPort or HDMI, and higher power delivery compared to previous 
 USB standards. The actual use of these pins can vary depending on the specific 
 implementation and requirements of the connected devices and cables.
-
-
+```
