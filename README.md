@@ -58,4 +58,5 @@ A10| RX2- | TX2- |B3    # USB3.1 SS
 | llama 3.2 3b | 0 |
 | phi4 | 0 |
 | mistral | 0 |
+| codellama:13b | 0 |
 
