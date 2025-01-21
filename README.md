@@ -23,7 +23,7 @@ Provide the pinout of a female USB Type-C connector
 - [ ] USB 2.0 pins
 - [ ] All other pins
 
-This gives us a 0-4 score on how useful a models' pinout would be if implemented. A score of 4 means the full USB Type-C spec could be implemented (as long as the necessary logic and microcontorllers are included on the connector itself)
+This gives us a 0-4 score on how useful a models' pinout would be if implemented. A score of 4 means the full USB Type-C spec could be implemented (as long as the necessary logic and microcontrollers are included on the connector itself)
 
 ## Pinout
 
