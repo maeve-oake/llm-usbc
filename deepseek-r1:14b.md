@@ -9,18 +9,20 @@ WIP.
 ## LLM Pinout
 
 ```
- A1|   VBUS #        |B12 (13)
- A2|    DPP #        |B11 (14)
- A3|    DMN #        |B10 (15)
- A4|   SBU1 #        |B9  (16)
- A5|   SBU2 #        |B8  (17)
- A6|   SBU2 #        |B7  (18)
- A7|   SBU1 #        |B6  (19)
- A8|    DMN #        |B5  (20)
- A9|    DPP #        |B4  (21)
-A10|   VBUS #        |B3  (22)
-A11|        #        |B2  (23)
+Pin|    Use | Use    |Pin (##)
+---|--------|--------|--------
 A12|        #        |B1  (24)
+A11|        #        |B2  (23)
+A10|   VBUS #        |B3  (22)
+ A9|    DPP #        |B4  (21)
+ A8|    DMN #        |B5  (20)
+ A7|   SBU1 #        |B6  (19)
+ A6|   SBU2 #        |B7  (18)
+ A5|   SBU2 #        |B8  (17)
+ A4|   SBU1 #        |B9  (16)
+ A3|    DMN #        |B10 (15)
+ A2|    DPP #        |B11 (14)
+ A1|   VBUS #        |B12 (13)
 ```
 
 The model mentions that the pins 10 to 24 mirror pins 1 to 9, however you can't mirror 9 pins into 14 remaining spaces. maybe it's ignored GND? if you shift all of the pins down one THEN mirror and set remaining pins as GND you'd be get a little closer to reality.
