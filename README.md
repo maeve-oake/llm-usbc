@@ -42,7 +42,3 @@ A10| RX2- # TX2- |B3    // USB3.1 SS
 A11| RX2+ # TX2+ |B2    // USB3.1 SS
 A12|  GND # GND  |B1    // Ground
 ```
-### Template
-
-
-
