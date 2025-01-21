@@ -4,7 +4,10 @@ GPT-4o is a model by OpenAI with image, text and audio capabilities.
 
 ## Results
 
-WIP.
+- [x] Number of pins (24)
+- [x] VBUS and GND pins
+- [x] USB 2.0 pins
+- [x] All other pins
 
 ## LLM Pinout
 
@@ -24,7 +27,8 @@ A10|   RX2− | TX2−   |B3  (22)
  A2|   TX1+ | RX1+   |B11 (14)
  A1|    GND | GND    |B12 (13)
 ```
-No comments - all pins correct!
+
+This model gets everything perfect, including the polarity of the USB3.1 SS pins! 4 out of 4 points!
 
 ## Raw LLM output
 

@@ -19,10 +19,11 @@ Provide the pinout of a female USB Type-C connector
 ### One point is granted for each correct specification
 
 - [ ] Number of pins (24)
-- [ ] GND pins (A1, A12, B1, B12)
-- [ ] VBUS pins (A4, A9, B4, B9)
-- [ ] USB 2.0 Pins (A6, A7, B6, B7)
-- [ ]
+- [ ] VBUS and GND pins
+- [ ] USB 2.0 pins
+- [ ] All other pins
+
+This gives us a 0-4 score on how useful a models' pinout would be if implemented. A score of 4 means the full USB Type-C spec could be implemented (as long as the necessary logic and microcontorllers are included on the connector itself)
 
 ## Pinout
 
@@ -44,3 +45,15 @@ A10| RX2- | TX2- |B3    # USB3.1 SS
  A2| TX1+ | RX1+ |B11   # USB3.1 SS
  A1|  GND | GND  |B12   # Ground
 ```
+
+## Scores
+
+| Model | Score |
+|-------|-------|
+| ChatGPT 4o | 4 |
+| ChatGPT o1 | 3 |
+| ChatGPT o1-mini | 3 |
+| deepseek-r1 | 1 |
+| llama 3.2 3b | 0 |
+| phi4 | 0 |
+

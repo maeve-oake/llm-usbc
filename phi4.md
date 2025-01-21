@@ -4,7 +4,10 @@ Phi-4 is a 14B parameter, state-of-the-art open model from Microsoft.
 
 ## Results
 
-WIP.
+- [ ] Number of pins (24)
+- [ ] VBUS and GND pins
+- [ ] USB 2.0 pins
+- [ ] All other pins
 
 ## LLM Pinout
 
@@ -28,7 +31,9 @@ A10|  SSRX- | GND    |B3  (22)
 
 At first i thought that the lack of a 16th pin and the inclusion of a 25th pin may just mean the LLM skipped one, but since it's the 16th and not 13th missing, this can't be true.
 
-Pretty much none of this is right except the VBUS, surprisingly! 
+Pretty much none of this is right except the VBUS, surprisingly! Unfortunately GND only has one correct pin, scoring zero points there.
+
+Even though the model does SAY it has 24 pins, it then goes on to list a 25th pin, giving scoring a total of zero points
 
 ## Raw LLM Output:
 

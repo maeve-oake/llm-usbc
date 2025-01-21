@@ -4,7 +4,10 @@ ChatGPT o1 is a model with reasoning abilities by OpenAI. It is better at scienc
 
 ## Results
 
-WIP.
+- [x] Number of pins (24)
+- [x] VBUS and GND pins
+- [x] USB 2.0 pins
+- [ ] All other pins
 
 ## LLM Pinout
 
@@ -24,7 +27,8 @@ A10| SSRXp1 | SSTXn2 |B3  (22)
  A2| SSTXp1 | SSRXn2 |B11 (14)
  A1|    GND | GND    |B12 (13)
 ```
-All the pins are correct except RX2 and RX1 have the polarity backwards - A11 & A10, and B11 & B10 need to be swapped.
+
+All the pins are correct except RX2 and RX1 have the polarity backwards - A11 & A10, and B11 & B10 need to be swapped, scoring this model 3 out of 4 points.
 
 SSTXp1 and SSTXn1 is a cute way of listing TX and RX for superspeed!
 

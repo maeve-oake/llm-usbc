@@ -4,7 +4,10 @@ ChatGPT o1-mini is a lightweight model by OpenAI. It is faster and 80% cheaper t
 
 ## Results
 
-WIP.
+- [x] Number of pins (24)
+- [x] VBUS and GND
+- [x] USB 2.0 Pins (A6, A7, B6, B7)
+- [ ] All other pins
 
 ## LLM Pinout
 
@@ -24,7 +27,7 @@ A10|   RX2+ | TX2−   |B3  (22)
  A2|   TX1+ | RX1−   |B11 (14)
  A1|    GND | GND    |B12 (13)
 ```
-Same as o1 - all the pins are correct except RX2 and RX1 have the polarity backwards - A11 & A10, and B11 & B10 need to be swapped.
+Same as o1 - all the pins are correct except RX2 and RX1 have the polarity backwards - A11 & A10, and B11 & B10 need to be swapped. Three out of four points
 
 ## Raw LLM output
 

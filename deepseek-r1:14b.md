@@ -4,7 +4,10 @@ DeepSeek's first generation reasoning models with comparable performance to Open
 
 ## Results
 
-WIP.
+- [x] Number of pins (24)
+- [ ] VBUS and GND pins
+- [ ] USB 2.0 pins
+- [ ] All other pins
 
 ## LLM Pinout
 
@@ -32,6 +35,8 @@ The model doesn't list any ground pins, but does think of them. It seems to thin
 DPP and DMN (supposedly stands for "Data Pair Negative") seem to be the TX and RX for USB3.1 SS and not USB2.0.
 
 Give the models' inner thoughts a read, it's rather interesting!
+
+Although the model did spent a very long time thinking, the only part of the spec it got right was the amount of pins at 24. 1 out of 4 points.
 
 ## Raw LLM Output
 
