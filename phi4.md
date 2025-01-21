@@ -9,19 +9,21 @@ WIP.
 ## LLM Pinout
 
 ```
- A1|     D+ # SBU1+  |B12 (13)
- A2|     D- # SBU1-  |B11 (14)
- A3|    CC1 # GND    |B10 (15)
- A4|   VBUS #        |B9  (16)  // 16th Pin not specified
- A5|  SSTX+ # SSTX2+ |B8  (17)
- A6|  SSTX- # SSTX2- |B7  (18)
- A7|    CC2 # SSRX2+ |B6  (19)
- A8|  SSRX+ # SSRX2- |B5  (20)
- A9|   VBUS # VBUS   |B4  (21)
-A10|  SSRX- # GND    |B3  (22)
-A11|    GND # GND    |B2  (23)
-A12|    GND # SBU2+  |B1  (24)
-            # SBU2-  |B?? (25)  // Hallucinated 25th Pin
+Pin|    Use | Use    |Pin (##)
+---|--------|--------|--------
+   |        | SBU2-  |    (25)  # Hallucinated 25th Pin
+A12|    GND | SBU2+  |B1  (24)
+A11|    GND | GND    |B2  (23)
+A10|  SSRX- | GND    |B3  (22)
+ A9|   VBUS | VBUS   |B4  (21)
+ A8|  SSRX+ | SSRX2- |B5  (20)
+ A7|    CC2 | SSRX2+ |B6  (19)
+ A6|  SSTX- | SSTX2- |B7  (18)
+ A5|  SSTX+ | SSTX2+ |B8  (17)
+ A4|   VBUS |        |B9  (16)  # 16th Pin not specified
+ A3|    CC1 | GND    |B10 (15)
+ A2|     D- | SBU1-  |B11 (14)
+ A1|     D+ | SBU1+  |B12 (13)
 ```
 
 At first i thought that the lack of a 16th pin and the inclusion of a 25th pin may just mean the LLM skipped one, but since it's the 16th and not 13th missing, this can't be true.
