@@ -6,7 +6,7 @@ This idea came up as i was daydreaming about what i'd do to charge my laptop if 
 
 Strange premise, but i realised i had a local LLM and ollama installed on my laptop! unfortunately it (llama3.2:3B) couldn't even get close to providing the pinout, let alone any other specs.
 
-I've decided to concatonate responses from popular LLMs to see if *any* of them could provide something as simple as USB-C pinout
+I've decided to concatonate responses from popular LLMs to see if *any* of them could provide something as simple as the pinout of a USB-C connector. LLMs being completely unable to answer (imo) very simple questions is why i *never* use them.
 
 The question:
 
