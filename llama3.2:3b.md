@@ -11,11 +11,11 @@ Meta's Llama 3.2 goes small with 1B and 3B models.
 
 ## LLM Pinout
 
-I couldn't come up with a pinout based on what the model has provided - it's too incoherent.
+I couldn't come up with a pinout based on what the model has provided - it's too incoherent. Asking the model the same question over and over produces wildly different results
 
 The model seems to think that a USB-C connector has two 48 pins, but doesn't provide info for all of them
 
-Unfortunately the model doesn't get a single useful metrix correct. Two ground pins are correct, but VBUS is nowhere near. scoring a total of zero points.
+Unfortunately the model doesn't produce a single useful attribute. Two ground pins are correct, but VBUS is nowhere near, scoring a total of zero points.
 
 ## Raw LLM output
 
