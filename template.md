@@ -4,7 +4,10 @@ Model description.
 
 ## Results
 
-WIP.
+- [ ] Number of pins (24)
+- [ ] VBUS and GND pins
+- [ ] USB 2.0 pins
+- [ ] All other pins
 
 ## LLM Pinout
 
