@@ -29,16 +29,18 @@ Provide the pinout of a female USB Type-C connector
 ### This is the "baseline" pinout we're looking for:
 
 ```
- A1|  GND # GND  |B12   // Ground
- A2| TX1+ # RX1+ |B11   // USB3.1 SS
- A3| TX1- # RX1- |B10   // USB3.1 SS
- A4| VBUS # VBUS |B9    // Power
- A5|  CC1 # SBU2 |B8    // CC1: PD / StS | SBU2: Sideband use
- A6|   D+ # D-   |B7    // USB2
- A7|   D- # D+   |B6    // USB2
- A8| SBU1 # CC2  |B5    // CC2: PD / StS | SBU1: Sideband use
- A9| VBUS # VBUS |B4    // Power
-A10| RX2- # TX2- |B3    // USB3.1 SS
-A11| RX2+ # TX2+ |B2    // USB3.1 SS
-A12|  GND # GND  |B1    // Ground
+Pin|  Use | Use  |Pin
+---|------|------|---
+A12|  GND | GND  |B1    # Ground
+A11| RX2+ | TX2+ |B2    # USB3.1 SS
+A10| RX2- | TX2- |B3    # USB3.1 SS
+ A9| VBUS | VBUS |B4    # Power
+ A8| SBU1 | CC2  |B5    # CC2: PD / StS | SBU1: Sideband use
+ A7|   D- | D+   |B6    # USB2
+ A6|   D+ | D-   |B7    # USB2
+ A5|  CC1 | SBU2 |B8    # CC1: PD / StS | SBU2: Sideband use
+ A4| VBUS | VBUS |B9    # Power
+ A3| TX1- | RX1- |B10   # USB3.1 SS
+ A2| TX1+ | RX1+ |B11   # USB3.1 SS
+ A1|  GND | GND  |B12   # Ground
 ```
