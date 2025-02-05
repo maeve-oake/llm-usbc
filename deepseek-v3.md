@@ -23,7 +23,7 @@ A10|   RX2- | RX2-   |B3  (22)
  A7|     D- | D-     |B6  (19)
  A6|     D+ | D+     |B7  (18)
  A5|    CC1 | CC1    |B8  (17)
- A4|   VBus | VBus   |B9  (16)  # Example comment
+ A4|   VBus | VBus   |B9  (16)
  A3|   TX1- | TX1-   |B10 (15)
  A2|   TX1+ | TX1+   |B11 (14)
  A1|    GND | GND    |B12 (13)
