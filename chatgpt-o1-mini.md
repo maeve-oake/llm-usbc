@@ -5,8 +5,8 @@ ChatGPT o1-mini is a lightweight model by OpenAI. It is faster and 80% cheaper t
 ## Results
 
 - [x] Number of pins (24)
-- [x] VBUS and GND
-- [x] USB 2.0 Pins (A6, A7, B6, B7)
+- [x] VBUS and GND pins
+- [x] USB 2.0 pins
 - [ ] All other pins
 
 ## LLM Pinout
