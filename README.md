@@ -56,9 +56,9 @@ A10| RX2- | TX2- |B3    # USB3.1 SS
 | ChatGPT o3-mini-high | 3 |
 | ChatGPT o3-mini | 2 |
 | ChatGPT 4o-mini | 1 |
-| deepseek-r1 | 1 |
+| deepseek-r1 14b | 1 |
 | llama 3.2 3b | 0 |
-| phi4 | 0 |
-| mistral | 0 |
-| codellama:13b | 0 |
+| phi4 14b | 0 |
+| mistral 7b | 0 |
+| codellama 13b | 0 |
 
