@@ -55,6 +55,7 @@ A10| RX2- | TX2- |B3    # USB3.1 SS
 | ChatGPT o1-mini | 3 |
 | ChatGPT o3-mini-high | 3 |
 | ChatGPT o3-mini | 2 |
+| DeepSeek-V3 | 2 |
 | ChatGPT 4o-mini | 1 |
 | deepseek-r1 14b | 1 |
 | llama 3.2 3b | 0 |
