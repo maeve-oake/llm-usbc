@@ -51,7 +51,8 @@ A10| RX2- | TX2- |B3    # USB3.1 SS
 | Model | Score |
 |-------|-------|
 | ChatGPT 4o | 4 |
-| Gemini 2.0 Pro | 4
+| ChatGPT 4.5 | 4 |
+| Gemini 2.0 Pro | 4 |
 | ChatGPT o1 | 3 |
 | ChatGPT o1-mini | 3 |
 | ChatGPT o3-mini-high | 3 |
@@ -60,7 +61,7 @@ A10| RX2- | TX2- |B3    # USB3.1 SS
 | DeepSeek-V3 | 2 |
 | ChatGPT 4o-mini | 1 |
 | DeepSeek-R1 14b | 1 |
-| Gemini 2.0 Flash | 1 
+| Gemini 2.0 Flash | 1 |
 | llama 3.2 3b | 0 |
 | phi4 14b | 0 |
 | mistral 7b | 0 |
