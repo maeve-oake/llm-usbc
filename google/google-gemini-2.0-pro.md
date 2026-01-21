@@ -7,7 +7,7 @@
 - [x] Number of pins (24)
 - [x] VBUS and GND pins
 - [x] USB 2.0 pins
-- [x] All other pins
+- [ ] All other pins
 
 ## LLM Pinout
 
@@ -27,6 +27,9 @@ A10| RX2-   | RX2-   |B3  (22) # Receiver differential pair 2, negative. Used fo
  A2| TX1+   | TX1+   |B11 (14) # Transmitter differential pair 1, positive. Used for SuperSpeed USB data transmission (one direction).
  A1| GND    | GND    |B12 (13) # Ground return. Essential for power and signal integrity.
 ```
+
+Although Gemini 2.0 pro got the connector orientation correct, it seems to have not flipped USB3.1 polarity correctly. 3/4 points
+
 ## Raw LLM output
 
 ```

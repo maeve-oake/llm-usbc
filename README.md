@@ -53,7 +53,8 @@ A10| RX2- | TX2- |B3    # USB3.1 SS
 | anthropic/claude-3.5-sonnet | 4 |
 | openai/gpt-4o | 4 |
 | openai/gpt-4.5 | 4 |
-| google/gemini-2.0-pro | 4 |
+| google/gemini-2.0-pro | 3 |
+| google/gemini-2.5-pro | 3 |
 | openai/gpt-o1 | 3 |
 | openai/gpt-o1-mini | 3 |
 | openai/gpt-o3-mini-high | 3 |
