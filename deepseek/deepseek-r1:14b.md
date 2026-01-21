@@ -1,4 +1,4 @@
-# deepseek-r1 14b
+# deepseek-r1:14b
 
 DeepSeek's first generation reasoning models with comparable performance to OpenAI-o1.
 

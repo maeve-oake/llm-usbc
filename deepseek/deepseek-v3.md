@@ -1,4 +1,4 @@
-# DeepSeek-V3
+# deepseek-v3
 
 DeepSeek-V3 achieves a significant breakthrough in inference speed over previous models.
 It tops the leaderboard among open-source models and rivals the most advanced closed-source models globally.

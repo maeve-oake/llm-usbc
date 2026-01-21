@@ -1,4 +1,4 @@
-# DeepSeek-R1 671b (37b active)
+# deepseek-r1:671b (37b active)
 
 DeepSeek's first generation reasoning models with comparable performance to OpenAI-o1.
 
