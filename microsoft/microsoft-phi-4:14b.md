@@ -1,4 +1,4 @@
-# Phi-4 14b
+# microsoft/phi-4:14b
 
 Phi-4 is a 14B parameter, state-of-the-art open model from Microsoft.
 

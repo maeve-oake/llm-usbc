@@ -1,4 +1,4 @@
-# codellama:13b
+# meta-llama/codellama:13b
 
 A large language model that can use text prompts to generate and discuss code.
 

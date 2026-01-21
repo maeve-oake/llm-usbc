@@ -62,8 +62,6 @@ A10| RX2- | TX2- |B3    # USB3.1 SS
 | openai/gpt-4o-mini | 1 |
 | deepseek/deepseek-r1:14b | 1 |
 | google/gemini-2.0-flash | 1 |
-| llama 3.2 3b | 0 |
-| phi4 14b | 0 |
-| mistral 7b | 0 |
-| codellama 13b | 0 |
-
+| meta-llama/llama-3.2:3b | 0 |
+| microsoft/phi-4:14b | 0 |
+| meta-llama/llama-codellama:13b | 0 |

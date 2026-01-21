@@ -1,4 +1,4 @@
-# Llama 3.2 3b
+# meta-llama/llama-3.2:3b
 
 Meta's Llama 3.2 goes small with 1B and 3B models.
 
