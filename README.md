@@ -52,7 +52,7 @@ A10| RX2- | TX2- |B3    # USB3.1 SS
 |-------|-------|
 | openai/gpt-4o | 4 |
 | openai/gpt-4.5 | 4 |
-| Gemini 2.0 Pro | 4 |
+| google/gemini-2.0-pro | 4 |
 | openai/gpt-o1 | 3 |
 | openai/gpt-o1-mini | 3 |
 | openai/gpt-o3-mini-high | 3 |
@@ -61,7 +61,7 @@ A10| RX2- | TX2- |B3    # USB3.1 SS
 | deepseek/deepseek-v3 | 2 |
 | openai/gpt-4o-mini | 1 |
 | deepseek/deepseek-r1:14b | 1 |
-| Gemini 2.0 Flash | 1 |
+| google/gemini-2.0-flash | 1 |
 | llama 3.2 3b | 0 |
 | phi4 14b | 0 |
 | mistral 7b | 0 |

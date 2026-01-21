@@ -1,4 +1,4 @@
-# Gemini 2.0 Flash
+# google/gemini-2.0-flash
 
 
 ## Results
