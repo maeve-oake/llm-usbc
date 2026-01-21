@@ -48,30 +48,31 @@ A10| RX2- | TX2- |B3    # USB3.1 SS
 
 ## Scores
 
-| Author | Model | Score |
-|--------|-------|-------|
-| anthropic | claude-3.5-sonnet | 4 |
-| mistralai | mistral-large-2512 | 4 |
-| openai | gpt-4o | 4 |
-| openai | gpt-4.5 | 4 |
-| x-ai | grok-4 | 4 |
-| deepseek | deepseek-r1:671b | 3 |
-| google | gemini-2.0-pro | 3 |
-| google | gemini-2.5-pro | 3 |
-| openai | gpt-5 | 3 |
-| openai | gpt-5-mini | 3 |
-| openai | gpt-5.2 | 3 |
-| openai | gpt-o1 | 3 |
-| openai | gpt-o1-mini | 3 |
-| openai | gpt-o3-mini-high | 3 |
-| openai | gpt-o3-mini | 2 |
-| openai | gpt-oss-20b | 1 |
-| deepseek | deepseek-v3 | 2 |
-| meta-llama | llama-4-maverick | 2 |
-| deepseek | deepseek-r1:14b | 1 |
-| google | gemini-2.0-flash | 1 |
-| meta-llama | llama-3.3-70b-instruct | 1 |
-| openai | gpt-4o-mini | 1 |
-| meta-llama | llama-3.2:3b | 0 |
-| meta-llama | llama-codellama:13b | 0 |
-| microsoft | phi-4:14b | 0 |
+| Author     | Model                  | Score |
+|------------|------------------------|-------|
+| anthropic  | claude-3.5-sonnet      | 4     |
+| mistralai  | mistral-large-2512     | 4     |
+| openai     | gpt-4o                 | 4     |
+| openai     | gpt-4.5                | 4     |
+| x-ai       | grok-4                 | 4     |
+| deepseek   | deepseek-r1:671b       | 3     |
+| google     | gemini-2.0-pro         | 3     |
+| google     | gemini-2.5-pro         | 3     |
+| openai     | gpt-5                  | 3     |
+| openai     | gpt-5-mini             | 3     |
+| openai     | gpt-5.2                | 3     |
+| openai     | gpt-o1                 | 3     |
+| openai     | gpt-o1-mini            | 3     |
+| openai     | gpt-o3-mini-high       | 3     |
+| openai     | gpt-o3-mini            | 2     |
+| openai     | gpt-oss-20b            | 1     |
+| deepseek   | deepseek-v3            | 2     |
+| meta-llama | llama-4-maverick       | 2     |
+| deepseek   | deepseek-r1:14b        | 1     |
+| google     | gemini-2.0-flash       | 1     |
+| google     | gemma-3-27b            | 1     |
+| meta-llama | llama-3.3-70b-instruct | 1     |
+| openai     | gpt-4o-mini            | 1     |
+| meta-llama | llama-3.2:3b           | 0     |
+| meta-llama | llama-codellama:13b    | 0     |
+| microsoft  | phi-4:14b              | 0     |
