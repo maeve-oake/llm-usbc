@@ -1,4 +1,4 @@
-# Model name gpt‑oss‑20b
+# openai/gpt‑oss‑20b
 
 Open‑source, 20B‑parameter model from OpenAI running localy, with reasoning effort:High.
 
