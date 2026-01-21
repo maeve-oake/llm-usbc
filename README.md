@@ -65,6 +65,7 @@ A10| RX2- | TX2- |B3    # USB3.1 SS
 | openai | gpt-o1-mini | 3 |
 | openai | gpt-o3-mini-high | 3 |
 | openai | gpt-o3-mini | 2 |
+| openai | gpt-oss-20b | 1 |
 | deepseek | deepseek-v3 | 2 |
 | meta-llama | llama-4-maverick | 2 |
 | deepseek | deepseek-r1:14b | 1 |
