@@ -1,4 +1,4 @@
-# ChatGPT o3-mini-high
+# openai/gpt-o3-mini-high
 
 Model description.
 

@@ -1,4 +1,4 @@
-# ChatGPT 4o-mini
+# openai/gpt-4o-mini
 
 Model description.
 

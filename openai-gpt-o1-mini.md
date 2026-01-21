@@ -1,6 +1,6 @@
-# ChatGPT o1-mini
+# openai/gpt-o1-mini
 
-ChatGPT o1-mini is a lightweight model by OpenAI. It is faster and 80% cheaper than o1-preview
+o1-mini is a lightweight model by OpenAI. It is faster and 80% cheaper than o1-preview
 
 ## Results
 

@@ -1,4 +1,4 @@
-# ChatGPT 4.5
+# openai/gpt-4.5
 
 GPT-4.5 is a model by OpenAI with image, text and audio capabilities.
 

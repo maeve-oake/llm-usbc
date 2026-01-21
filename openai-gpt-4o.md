@@ -1,4 +1,4 @@
-# ChatGPT 4o
+# openai/gpt-4o
 
 GPT-4o is a model by OpenAI with image, text and audio capabilities.
 

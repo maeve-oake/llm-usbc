@@ -1,6 +1,6 @@
-# ChatGPT o1
+# openai/gpt-o1
 
-ChatGPT o1 is a model with reasoning abilities by OpenAI. It is better at science and programming than GPT-4o
+GPT-o1 is a model with reasoning abilities by OpenAI. It is better at science and programming than GPT-4o
 
 ## Results
 
