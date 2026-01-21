@@ -50,6 +50,7 @@ A10| RX2- | TX2- |B3    # USB3.1 SS
 
 | Model | Score |
 |-------|-------|
+| anthropic/claude-3.5-sonnet | 4 |
 | openai/gpt-4o | 4 |
 | openai/gpt-4.5 | 4 |
 | google/gemini-2.0-pro | 4 |
