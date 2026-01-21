@@ -51,6 +51,7 @@ A10| RX2- | TX2- |B3    # USB3.1 SS
 | Author | Model | Score |
 |--------|-------|-------|
 | anthropic | claude-3.5-sonnet | 4 |
+| x-ai | grok-4 | 4 |
 | openai | gpt-4o | 4 |
 | openai | gpt-4.5 | 4 |
 | deepseek | deepseek-r1:671b | 3 |
