@@ -64,6 +64,7 @@ A10| RX2- | TX2- |B3    # USB3.1 SS
 | openai | gpt-o3-mini-high | 3 |
 | openai | gpt-o3-mini | 2 |
 | deepseek | deepseek-v3 | 2 |
+| meta-llama | llama-4-maverick | 2 |
 | deepseek | deepseek-r1:14b | 1 |
 | google | gemini-2.0-flash | 1 |
 | meta-llama | llama-3.3-70b-instruct | 1 |
