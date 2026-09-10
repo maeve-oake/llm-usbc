@@ -56,6 +56,7 @@ A10| RX2- | TX2- |B3    # USB3.1 SS
 | openai | gpt-4.5 | 4 |
 | x-ai | grok-4 | 4 |
 | deepseek | deepseek-r1:671b | 3 |
+| google | gemma4:36B | 3 |
 | google | gemini-2.0-pro | 3 |
 | google | gemini-2.5-pro | 3 |
 | openai | gpt-5 | 3 |
